@@ -31,7 +31,18 @@ function mostroAmigoNaTela(nome){
         //adicionando o nome no item
         item.textContent = nome;
 
-        // Idicionando o novo elemento na lista
+        // Adicionando o novo item na lista
         lista.appendChild(item);
 
 }
+function sortearAmigo(){
+    // Aqui o math.Floor arredonda o indice que o math.random sortiou
+    let pegarIndice =  Math.floor(Math.random()*listaAmigo.length);
+    //O indice sorteiado é usado para capiturar um nome
+    let amigoEscolhido = listaAmigo[pegarIndice];
+    //Chamada da função que ira exibir o nome sorteado 
+    mostrarAmigo(amigoEscolhido);
+}
+
+
+
