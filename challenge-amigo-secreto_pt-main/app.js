@@ -44,5 +44,18 @@ function sortearAmigo(){
     mostrarAmigo(amigoEscolhido);
 }
 
+function mostrarAmigo(texto) {
+    let resultado = document.getElementById('resultado');
+
+    // Limpa a lista antes de mostrar um novo nome
+    resultado.innerHTML = '';
+
+    // Cria o item com o nome sorteado
+    let item = document.createElement('li');
+    item.textContent = texto;
+
+    // Adiciona na lista de resultados
+    resultado.appendChild(item);
+}
 
 
