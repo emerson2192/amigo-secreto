@@ -17,7 +17,6 @@ Este é um projeto simples que consiste em adicionar amigos a uma lista e, em se
 - JavaScript
 
 ## ▶️ Como usar:
-<<<<<<< HEAD
 - Na tela, você verá um campo com o texto *"Digite um nome"*.
 ![alt text](./printAmigoSecreto/escreverNomeAmigo.jpeg)
 
