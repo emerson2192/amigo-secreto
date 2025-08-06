@@ -17,6 +17,7 @@ Este é um projeto simples que consiste em adicionar amigos a uma lista e, em se
 - JavaScript
 
 ## ▶️ Como usar:
+<<<<<<< HEAD
 - Na tela, você verá um campo com o texto *"Digite um nome"*.
 ![alt text](./printAmigoSecreto/escreverNomeAmigo.jpeg)
 
@@ -31,4 +32,6 @@ Este é um projeto simples que consiste em adicionar amigos a uma lista e, em se
 
 - Quando todos os nomes forem adicionados, clique no botão **Sortear Amigo**, e o nome sorteado será exibido em destaque.
 ![alt text](./printAmigoSecreto/amigoSorteado.jpeg)
+
+
 
